@@ -33,10 +33,10 @@ public class HelloAutoConfiguration {
 		return hi;
 	}
 
-	// @Bean
-	// @ConditionalOnMissingClass({ AUTUMN_CLS, WINTER_CLS })
-	// public Hello helloWorld() {
-	// return new Hello() {
-	// };
-	// }
+	@Bean
+	@ConditionalOnMissingClass({ AUTUMN_CLS, WINTER_CLS })
+	public Hello helloWorld() {
+		return new Hello() {
+		};
+	}
 }

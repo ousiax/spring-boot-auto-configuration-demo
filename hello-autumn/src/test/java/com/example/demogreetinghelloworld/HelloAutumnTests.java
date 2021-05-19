@@ -21,5 +21,4 @@ public class HelloAutumnTests {
 		String greeting = out.toString();
 		assertEquals("Hello Autumn!", greeting);
 	}
-
 }

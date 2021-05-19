@@ -1,2 +1,3 @@
 # spring-boot-auto-configuration-demo
-A simple demo of Spring Boot Auto Configuration
+
+Reference: https://docs.spring.io/spring-boot/docs/2.4.5/reference/htmlsingle/#boot-features-developing-auto-configuration
